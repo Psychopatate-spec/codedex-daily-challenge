@@ -3,6 +3,7 @@ function dompierMusic(switches) {
   let music = []
   for (let i = 0; i < switches.length; i++) {
     decimalNumber = parseInt(switches[i], 2)
+    //Checks for every possible frequency and adds the corresponding note to music
     if (decimalNumber == 261) {
       music.push("C4")
     } else if (decimalNumber == 294) {
