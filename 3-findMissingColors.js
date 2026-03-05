@@ -1,5 +1,5 @@
 function findMissingColors(grid) {
-  let colors = ["🟥", "🟧", "🟨", "🟩", "🟦", "🟪", "🟫"]
+  const colors = ["🟥", "🟧", "🟨", "🟩", "🟦", "🟪", "🟫"]
   let presentColors = []
   let missingColors = []
   //Checks for every color present in the grid
